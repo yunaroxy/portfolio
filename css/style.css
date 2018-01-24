@@ -54,6 +54,9 @@ footer address{
   padding-left:10px;
   text-align: center;
 }
+
+
+/*모바일*/
 @media(max-width:720px){
   #grid{
     display: block;
