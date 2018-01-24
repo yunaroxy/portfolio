@@ -1,0 +1,79 @@
+article ul{
+  margin: 0 auto;
+  text-align: center;
+  max-width: 1200px;
+}
+article ul li{
+  display: inline-block;
+  list-style: none;
+  width: 300px;
+  height: 200px;
+	margin: 10;
+	padding: 10px;
+	text-align: Center;
+	position: relative;
+}
+article figure {
+	margin: 0;
+	position: relative;
+}
+article figure img {
+	max-width: 100%;
+	display: block;
+	position: relative;
+}
+
+
+/*hober*/
+article figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #ed6c00;
+}
+article figcaption h3 {
+	font-size:22px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+article figcaption a {
+	text-align: center;
+	padding: 5px 10px;
+	border-radius: 0px;
+	display: inline-block;
+	outline:Solid;
+	color: #fff;
+}
+
+article figcaption {
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	text-align: center;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+}
+article figure:hover figcaption,
+article figure.cs-hover figcaption {
+	opacity: 0.9;
+	-webkit-transform: translate(0px, 0px);
+	-moz-transform: translate(0px, 0px);
+	-ms-transform: translate(0px, 0px);
+	transform: translate(0px, 0px);
+}
+article figcaption h3 {
+	margin-top: 55px;
+}
+article figcaption span {
+	display: block;
+}
+article figcaption a {
+	margin-top: 30px;
+	outline-color:#FFF;
+}
