@@ -55,6 +55,11 @@ footer address{
   text-align: center;
 }
 
+/*모바일 팝업메뉴 없애기*/
+.popup_menu_area{
+  display: none;
+}
+
 
 /*모바일*/
 @media(max-width:720px){
