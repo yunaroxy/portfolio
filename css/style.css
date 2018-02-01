@@ -6,6 +6,8 @@
 
 html{
   font-family: 'Noto Sans KR', sans-serif;
+  font-weight: nomal;
+  font-style: nomal;
   font-weight: 300;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
