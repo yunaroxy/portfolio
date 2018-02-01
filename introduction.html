@@ -3,20 +3,27 @@
 <head>
   <title>WEB</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/introduction.css">
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!--
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/earlyaccess/notosanskr.css">
+-->
 </head>
 <body>
-  <header>
-    <h1><a href="index.html">WEB</a></h1>
-  </header>
-  <div id="grid">
-    <nav>
-      <ol>
-        <li><a href="1.html">HTML</a></li>
-        <li><a href="2.html">CSS</a></li>
-        <li><a href="3.html">JavaScript</a></li>
-      </ol>
-    </nav>
+  <div class="warp">
+    <header>
+      <h1><a href="index.html">WEB</a></h1>
+      <nav class="nav">
+        <div class="menu_btn"></div>
+        <ul>
+          <li><a href="1.html">HTML</a></li>
+          <li><a href="2.html">CSS</a></li>
+          <li><a href="3.html">JAVASCRIPT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="grid">
     <article>
       <h2>WEB</h2>
       <section>
@@ -60,40 +67,25 @@
   <aside>
     <audio src="http://robtowns.com/music/blind_willie.mp3" controls="controls" autoplay="autoplay"></audio>
   </aside>
-  <footer>
-    <hr>
+  <footer class="footer">
     <address>
       <a href="mailto:yunawow@naver.com"><img src="img/bt_email.png"> yunawow@naver.com</a>
       <a href="https://www.instagram.com/yunaroxy/" alt="instagram" target="_blank"> <img src="img/bt_instagram_white.png"></a>
       <small>Copylight © 2018 JI-Yuna All Rights Reserved </small>
     </address>
-    <details>
-      <summary>사이트 정보</summary>
-      <ul>
-        <li>개설일: ‎2018‎년 1월 ‎1‎일</li>
-        <li>마지막 업데이트 날짜 : 2018.01.22</li>
-      </ul>
-    </details>
-    <form>
-      <input type="text" list="search">
-      <datalist id="search">
-          <option value="date">메모리폼</option>
-          <option value="subject">책장</option>
-          <option value="name">아이폰 케이스</option>
-      </datalist>
-    </form>
-    <select name="category">
-      <optgroup label="diary">
-         <option value="story" selected="selected">스토리</option>
-         <option value="travel">여행</option>
-         <option value="movie">영화</option>
-      </optgroup>
-      <optgroup label="scrap">
-         <option value="food">음식</option>
-         <option value="photo">사진</option>
-         <option value="news">뉴스</option>
-      </optgroup>
-    </select>
   </footer>
-  </body>
-  </html>
+</div>
+
+<!-- popup -->
+<div class="popup_menu_area">
+  <div class="close_btn"></div>
+  <ul class="pop_menu">
+    <li><a href="1.html">HTML</a></li>
+    <li><a href="2.html">CSS</a></li>
+    <li><a href="3.html">JavaScript</a></li>
+  </ul>
+  <div class="back"></div>
+</div>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
