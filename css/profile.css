@@ -1,0 +1,18 @@
+dt, dd, p, pre, figcaption{
+  color: #fff;
+}
+
+article section dl{
+  font-size:1em;
+}
+p{
+  line-height: 2;
+}
+
+#grid article{
+  text-align: left;
+}
+figure img{
+  float: left;
+  padding-right: 20px;
+}
