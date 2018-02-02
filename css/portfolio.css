@@ -1,7 +1,8 @@
-article ol{
-  margin: 0 auto;
-  text-align: center;
-  max-width: 1200px;
+
+article ol {
+  padding: 0px 20px 80px 20px;
+  max-width: 980px;
+
 }
 article ol li{
   display: inline-block;

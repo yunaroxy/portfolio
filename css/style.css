@@ -97,7 +97,7 @@ h1 a{
 
 
 /*모바일*/
-@media(max-width:800px){
+@media(max-width:720px){
   #grid{
     display: block;
   }
