@@ -32,7 +32,7 @@ h1 {
   font-size:3em;
   float: left;
   margin:0;
-  padding:20px;
+  padding:20px;z
 }
 h2{
   color: #fff;
@@ -140,6 +140,12 @@ h1 a{
     z-index: 20;
     cursor: pointer;
   }
+  .close_btn:hover,
+  .close_btn:active{
+    background: url('../img/btn_close.png') no-repeat;
+    transform: rotate(90deg);
+    -webkit-transition: -webkit-transform 0.3s;
+  }
   .pop_menu{
     display: block;
     position: absolute;
@@ -152,10 +158,15 @@ h1 a{
   }
   .pop_menu li{
     display: block;
+    line-height: 2;
   }
   .pop_menu a{
     color: #fff;
     opacity: 1;
+  }
+  .pop_menu a:hover,
+  .pop_menu a:active{
+    color: #ed6c00;
   }
   .back{
     width: 100%;
